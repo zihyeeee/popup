@@ -3,11 +3,11 @@ $(document).ready(function(){
         if($('.info_wrap').hasClass('on') == true){
             $('.info_wrap').removeClass('on');
             $('.info_wrap').slideUp();
-            $('.pop_wrap').css('height', '102vw')
+            $('.pop_wrap').css('height', '114vw')
         } else{
             $('.info_wrap').addClass('on');
             $('.info_wrap').slideDown();
-            $('.pop_wrap').css('height', '112vw')
+            $('.pop_wrap').css('height', '126vw')
         }
     })
 
