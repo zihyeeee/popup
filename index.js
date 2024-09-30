@@ -3,14 +3,12 @@ $(document).ready(function(){
         if($('.info_wrap').hasClass('on') == true){
             $('.info_wrap').removeClass('on');
             $('.info_wrap').slideUp();
-            $('.pop_wrap').css('height', '139vh')
+            $('.pop_wrap').css('height', '80vw')
         } else{
             $('.info_wrap').addClass('on');
             $('.info_wrap').slideDown();
-            $('.pop_wrap').css('height', '164vh')
+            $('.pop_wrap').css('height', '92vw')
         }
-        // $('.info_wrap').slideToggle();
-        // $('.pop_wrap').css('height', '164vh')
     })
 
     //전화번호 포커스 자동이동
